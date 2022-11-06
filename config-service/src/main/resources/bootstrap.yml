@@ -6,13 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MicroservicesShopping/config-service.git
-          repos:
-            service-product:
-              uri: https://github.com/MicroservicesShopping/service-product.git
-              searchPath: config-data
-              username: ${GIT_USER}
-              password: ${GIT_PASSWORD}
+          uri: https://github.com/SamuelFumeroHdez/shoppingMicroservices.git
+          searchPath: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
   security:
     user:
       name: root
